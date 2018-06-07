@@ -1,10 +1,11 @@
-function keyMaster (obj, str) {
+function keyMaster(obj, str) {
+  str = 'key1'
   obj = {
-    door1: 'Winner',
-    door2: 'Loser'
+    key1: 'Win',
+    key2: 'Lose',
+    key3: 'Lose'
   }
-  str = 'door1'
-    console.log(obj[str]);
+  console.log(obj[str])
 }
 
 keyMaster();
